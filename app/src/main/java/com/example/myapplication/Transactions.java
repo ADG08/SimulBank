@@ -29,13 +29,13 @@ import java.util.Date;
 import java.util.HashMap;
 
 public class Transactions extends AppCompatActivity {
-    FirebaseAuth auth;
-    FirebaseFirestore db;
-    FirebaseUser user;
-    ListView ls;
-    TextView aucune_transaction;
+    private FirebaseAuth auth;
+    private FirebaseFirestore db;
+    private FirebaseUser user;
+    private ListView ls;
+    private TextView aucune_transaction;
 
-    Button retour;
+    private Button retour;
 
     private HashMap<String, String> map;
     private ArrayList<HashMap<String, String>> values = new ArrayList<HashMap<String, String>>();

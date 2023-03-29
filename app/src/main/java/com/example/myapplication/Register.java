@@ -27,12 +27,12 @@ import java.util.Map;
 
 public class Register extends AppCompatActivity {
 
-    TextInputEditText editTextName, editTextSoldeActuel, editTextEmail, editTextPassword;
-    Button buttonReg;
-    FirebaseAuth mAuth;
-    ProgressBar progressBar;
-    TextView textView;
-    FirebaseFirestore db;
+    private TextInputEditText editTextName, editTextSoldeActuel, editTextEmail, editTextPassword;
+    private Button buttonReg;
+    private FirebaseAuth mAuth;
+    private ProgressBar progressBar;
+    private TextView textView;
+    private FirebaseFirestore db;
 
     @Override
     public void onStart() {

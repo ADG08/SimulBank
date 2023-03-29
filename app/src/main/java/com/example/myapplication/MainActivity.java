@@ -31,18 +31,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
-    User currentUser = new User();
-    FirebaseAuth auth;
-    Button disconect, crediter, debiter, seeTransactions;
-    TextView textViewDetails, textViewArgents;
-    FirebaseUser user;
-    FirebaseFirestore db;
+    private User currentUser = new User();
+    private FirebaseAuth auth;
+        private Button disconect, crediter, debiter, seeTransactions;
+    private TextView textViewDetails, textViewArgents;
+    private FirebaseUser user;
+    private FirebaseFirestore db;
 
     private Object argent;
-    private Object nom;
 
     private String statue;
-    AlertDialog dialog;
+    private AlertDialog dialog;
 
 
     @Override
