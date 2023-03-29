@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SimulBank</string>
+    <string name="connexion">Connexion</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="Inscription">Inscription</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="cliquer_pour_vous_connecter">Cliquez ici pour vous connecter</string>
+    <string name="cliquer_pour_vous_inscrire">Cliquez ici pour vous inscrire</string>
+    <string name="se_deconnecter">Se déconnecter</string>
+    <string name="voir_mes_transactions">Voir mes opérations</string>
+    <string name="crediter">Créditer</string>
+    <string name="debiter">Débiter</string>
+    <string name="nom">Nom</string>
+    <string name="retour">Retour</string>
+    <string name="solde_actuel">Solde actuel</string>
+    <string name="date_de_transaction">Date de l\'opération :</string>
+    <string name="type">Type :</string>
+    <string name="montant">Montant :</string>
+    <string name="objet">Objet :</string>
+    <string name="objet_">Objet</string>
+    <string name="montant_">Montant</string>
+    <string name="valider">Valider</string>
+</resources>
